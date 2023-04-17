@@ -9,12 +9,13 @@
     <meta name="description" content="UCSD CSE 110 Spring 2023 Lab 2">
     <link rel="icon" type="image/x-icon" href="/images/Cat-Grumpy.ico">
   </head>
+  <body>
 
   <header>
     <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/clock.png" alt="Clock" width="800" height="300"/>
 </header>
 
-  <body>
+  
     <header>
         <h1><b><span style="color:#0c7c7c;"> Dennis' Magic Meeting Minutes Machine </span></b></h1>
     </header>
@@ -46,7 +47,7 @@
                 <h2>Agenda: initial meeting, brainstorming, leader intro<br></h2> 
                 <h3>@ Chipotle w/ group leaders Ron, Erin<br></h3> 
                 <h3>Date: 04/16/2023<br></h3> 
-                <h3><ul>
+                <ul>
                     <li>Call to Order @ 2:30pm</li><br>
                     <ul>
                         <li>8 in attendance, Rachael Higgins in traffic</li>
@@ -85,7 +86,6 @@
                     <li>Summary: Refine ideas, pomodoro or connect 4, find out professor's opinion</li>
                   </ul>
 
-                </h3>
                 <hr>
                 <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/Pen.jpg" alt="Notes" width="800" height="300"/>
 
@@ -134,16 +134,16 @@
                 <label for="name">Name {optional}:</label>
                 <input type="text" id="name" name="name"><br><br>
                 
-                <input type="date" id="do" name="m" value="M">
+                <input type="date" id="do" name="m">
                 <label for="do">Date Of Last Meeting</label><br>
 
                 <input type="checkbox" id="ss" name="mo" value="K">
                 <label for="ss">All in attendance?</label><br>
             
-                <input type="radio" id="n" name="dn" value="S">
+                <input type="radio" id="night" name="dn" value="S">
                 <label for="night">Night</label><br>
             
-                <input type="radio" id="d" name="dn" value="M">
+                <input type="radio" id="day" name="dn" value="M">
                 <label for="day">Day</label><br>
 
 
@@ -159,7 +159,7 @@
     <option value="Useless">
 </datalist>
 
-<label for="choice2">Group rating 1-5:</label>
+<label for="ch2">Group rating 1-5:</label>
 
 <select name="ch2" id="ch2">
   <option value="1">1</option>
