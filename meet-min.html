@@ -124,6 +124,58 @@
           <p>Note: the developer <strong>does not</strong> assume responsibilty for inaccurate records.</p>
           <a href="#top">Top of page</a>
         </footer>
+
+        <hr>
+
+        <form>
+            <fieldset>
+                <legend>Quick research survey</legend>
+
+                <label for="name">Name {optional}:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <input type="date" id="do" name="m" value="M">
+                <label for="do">Date Of Last Meeting</label><br>
+
+                <input type="checkbox" id="ss" name="mo" value="K">
+                <label for="ss">All in attendance?</label><br>
+            
+                <input type="radio" id="n" name="dn" value="S">
+                <label for="night">Night</label><br>
+            
+                <input type="radio" id="d" name="dn" value="M">
+                <label for="day">Day</label><br>
+
+
+
+              <label for="choice">Meeting rating:</label>
+<input list="rating" id="choice" name="choice">
+
+<datalist id="rating">
+    <option value="Excellent">
+    <option value="Great">
+    <option value="Good">
+    <option value="Poor">
+    <option value="Useless">
+</datalist>
+
+<label for="choice2">Group rating 1-5:</label>
+
+<select name="ch2" id="ch2">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br><br>
+
+<textarea id="commbox" name="comments" rows="3" cols="25">Comments?</textarea>
+
+<br><button type="button" onclick="alert('Thanks!')">Submit</button>
+</fieldset>
+          </form>
+
+
     </main>
   
 
