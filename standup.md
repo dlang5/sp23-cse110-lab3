@@ -13,9 +13,6 @@
 
 ## Retrospective
 
-## Adjourned @ 1:00pm
+## Adjourned @
 
 ## Notes
-Find permanent group meeting spot <br>
-Research similar projects <br>
-Gather signatures <br>
