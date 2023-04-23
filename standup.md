@@ -4,12 +4,18 @@
 ## Attendance
 
 ## Yesterday
+Item | Description
+---- | ----
 
 ## Today
+Item | Description
+---- | ----
 
 ## Issues
+Item | Description
+---- | ----
 
-## Catch Session
+## Catch Session + Sprint Progress
 
 ## Retrospective
 
