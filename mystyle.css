@@ -1,4 +1,4 @@
-         header {
+                 header {
          display: block;
          position: static;
          }
@@ -60,9 +60,36 @@
          border-color: gray;
          border-radius: 11px;
          margin: auto;
+         }
          @media (max-width: 900px) {
          body {
          background-color: orange;
          }
          }
+         #tree {
+         color: green;
+         }
+         [class|= "grid-item"] {
+         border: 1px solid white;
+         }
+         p, h2 {
+         font-family: 'Chivo Mono', monospace;
+         }
+         ul li{
+         list-style-type: georgian;
+         }
+         ul > li {
+         list-style-type: circle;
+         }
+         li ~ ul {
+         color: green;
+         }
+         li:first-of-type + li {
+         color: blue;
+         }
+         div.grid-item {
+         color: red;
+         }
+         * {
+         margin: 2px;
          }
