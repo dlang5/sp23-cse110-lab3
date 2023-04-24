@@ -1,5 +1,5 @@
 # Standup Meeting Template
-**Date/Time:**
+**Date and Time:**
 
 ## Attendance
 
