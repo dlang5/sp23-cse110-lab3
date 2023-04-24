@@ -6,18 +6,27 @@
          body {
          background-color: rgb(191, 162, 185);
          }
+         header {
+display: block;
+position: static;
+         }
          h1 {
-         text-align: center;
+         text-align: right;
          margin-left: 40px;
-         padding-left: 1px;
-         padding-right: 1px;
-         padding-top: 1px;
-         padding-bottom: 1px;
+         padding-left: 30px;
+         padding-right: 30px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         display: block;
+         max-width: 0%;
+         min-width: 0%;
+		position: sticky;
          }
          h2 {
          color: maroon;
          margin: 0ex 0ex 0ex 1ex;
          padding: 0px 0px 0px 1px;
+         display: inline-block;
          }
          h3 {
          margin-left: 1em;
@@ -41,7 +50,7 @@
       <link rel="icon" type="image/x-icon" href="/images/Cat-Grumpy.ico" />
    </head>
    <header>
-      <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/clock.png" alt="Clock" width="800" height="300" />
+      <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/clock.png" alt="Clock" />
    </header>
    <body>
       <header>
@@ -131,7 +140,7 @@
                   </ul>
                </h3>
                <hr />
-               <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/Pen.jpg" alt="Notes" width="800" height="300" />
+               <img src="https://raw.githubusercontent.com/dlang5/Lab2_Starter/main/images/Pen.jpg" alt="Notes" width="800" height="300" min-width: 30em; max-width: 30em; />
             </section>
          </div>
          <hr />
